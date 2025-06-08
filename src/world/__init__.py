@@ -15,4 +15,10 @@ register(
 )
 
 
+register(
+    id="Hopper_custom",
+    entry_point="src.world.envs.HopperCustomGym:HopperCustomEnv",
+)
+
+
 __version__ = "0.1"
